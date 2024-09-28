@@ -70,7 +70,7 @@
    ```
 8. **Организация ASPP для BGP DDOS-GUARD**:
    ```
-   set policy-options policy-statement POL-PREPEND term prependt from route-filter 198.18.100.1/24 exact
+   set policy-options policy-statement POL-PREPEND term prependt from route-filter 113.13.12.0/24 113.13.13.0/24 exact
    set policy-options policy-statement POL-PREPEND term prependt then as-path-prepend "49612 49612 49612"
    set policy-options policy-statement POL-PREPEND term prependt then accept
    ```
@@ -126,7 +126,7 @@
    ```
 7. **Организация ASPP для BGP DDOS-GUARD**:
    ```
-   set policy-options policy-statement POL-PREPEND term prependt from route-filter 198.18.100.1/24 exact
+   set policy-options policy-statement POL-PREPEND term prependt from route-filter 113.13.10.0/24 113.13.11.0/24 exact
    set policy-options policy-statement POL-PREPEND term prependt then as-path-prepend "49612 49612 49612"
    set policy-options policy-statement POL-PREPEND term prependt then accept
    ```
