@@ -1,5 +1,5 @@
 # DDos-Guard-Hack
-The solution of the geo-distributed network case
+Решение кейса "Геораспределенная сеть"
 
 # Конфигурация сети: Москва и Гонконг - DebugDreamTeam
 
